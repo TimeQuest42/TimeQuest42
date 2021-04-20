@@ -1,0 +1,22 @@
+body
+{
+	background-image: url("fond.jpg");
+	text-align: center;
+}
+p
+{
+    color: white;
+    font-family: Comic Sans MS,Arial;
+    text-align: justify-all;
+    font-weight: bold;
+    font-size: 15px;
+}
+h1
+{
+	color : white;
+	font-family: Comic Sans MS,Arial;
+	font-size: 40 px;
+	font-weight: bold;
+	text-align: center;
+
+}

@@ -1,0 +1,40 @@
+body
+{
+	background-image: url("fond.jpg");
+	text-align: center;
+}
+p
+{
+    color: white;
+    font-family: Comic Sans MS,Arial;
+    text-align: justify-all;
+    font-weight: bold;
+    font-size: 15px;
+}
+h1
+{
+	color : white ;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Comic Sans MS,Arial;
+}
+h4
+{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: Comic Sans MS,Arial;
+}
+ol
+{
+	color: white;
+	font-family: Comic Sans MS,Arial;
+}
+a
+{
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Comic Sans MS,Arial;
+}
