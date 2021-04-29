@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'pol';
+    src: url('Enchanted Land.otf');
+}
+
+body
+{
+	background-image: url("fond.png");
+	text-align: center;
+	color: white;
+	font-size: 32px;
+	font-family: 'pol';
+}
+header
+{
+	font-size: 25px;
+	border: 2px white solid;
+}
+a
+{
+	color:white;
+}
+a:visited
+{
+	color:white;
+}
+#bande
+{
+	display: flex;
+	justify-content: space-between;
+	margin:auto;
+	color: white;
+}
+p
+{
+	border-right: 1px white solid;
+}
+
+#t1,#t2,#t3,#t4,#mc,#rech
+{
+		 margin: auto;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="test1.css" />
+        <title>Origine</title>
+    </head>
+
+    <body>
+    	<header>
+
+            <div id="bande">
+            <div id = "pho"><a href="../Time quest 42.html"><img src="../Logop.png" alt="Logo du groupe"></a></div>
+            <p></p>
+            <div id = "t1"><a href="Origine.html"><h2>Origine</h2></a></div>
+            <p></p>
+            <div id="t3"><a href="jeu.html"><h2>Le jeu</h2></div>
+            <p></p>
+            <div id="mc"><a href="eda.html"><h2>Etat de l'art</h2></a></div>
+            <p></p>
+            <div id="mc"><a href="tuto.html"><h2>Tutoriel</h2></a></div>
+            <p></p>
+	    <div id="mc"><a href="avancement.html"><h2>Avancement</h2></a></div>
+            <p></p>
+             <div id="rech"> <a href="ins.html"><h2>Installation</h2></a></div>
+        </div>
+        </header>
+        <div id="text">
+	<h1><strong>Détail d'avancement</strong></h1>
+	<p>Tout d'abord nous nous sommes demandés comment est-ce-qu'on pourrait faire marcher notre jeu en c#.</p>
+	<p>Sortant d'un TP sur l'orienté objet on a decidé de faire comme dans ce TP avec des classes mères, des classes filles et un classe qui centralise tout.</p>
+	<p>Nous avons donc decidé de commencer par créer ces fameuses classes, en même temps que de créer ce site web.</p>
+	<p>Pour le site connaissant déjà le html nous n'avons eu que très peu de recherche à faire sur le CSS pour en arriver à ce résultat.</p>
+	<p>Pour que notre projet soit exploitable il fallait un logiciel permettant d'avoir un bon rendu graphique et des interactions entre les joueurs et le jeu.</p>
+	<p>Après des recherches nous avons décidé d'utiliser UNITY (son lien et dans Etat de l'Art).</p>
+	<p>Une fois cette décision prise nous avons commencé à créer les graphismes des cases qui seront présentes sur la carte.</p>
+	<p>En même temps nous avons commencé à réfléchir  a quelles fonctions on pourrait avoir besoin pour que nos classes interagissent entre elles comme la fonction attaque ,déplace ...</p>
+	<p>Une fois les graphismes de la carte finis nous les avons assemblé sur UNITY pour créer la carte.</p>
+	<p>Les liaisons entre les cases n'était pas un problème il suffisait de créer un graphisme de transition.</p>
+	<p>Le problème été la transition avec l'eau qui a une animation.</p>
+	<p>Nous avons d'abord pensé à animer les transitions puis nous avons eu l'idée de mettre les transitons de l'eau au premier plan pour recouvrir une partie de l'animation et en faire une transition réussie.</p>
+	<p>Ensuite nous avons créé des fonctions permettant de faire des actions ,comme "validposition" ou "mort" ou encore "attaque".</p>
+	<p>Une fois ces fonctions créer nous nous sommes occupé de la classe qui lie toutes les classes.</p>
+	<p>Nous nous sommes occupé de l'initialisation au début du jeu.</p>
+	<p>A ce niveau-là nous avons commencé à réfléchir à comment sauvegarder une partie en cours.</p>
+	<p>Nous avons simplement fais une fonction qui écrit toutes les informations dans un fichier txt et une qui lit un fichier txt pour reprendre la partie sauvegarder.</p>
+	<p>Puis nous nous sommes heurté à un problème: Comment faire pour lier les fonctions entre elles pour avoir notre jeu en tour par tour(le moteur).</p>
+	<p>Après quelques temps de réflexion nous avons réussi à créer le squelette du moteur, on avait créé des fonctions vides où l'on a expliqué ce qu'elles devaient faire et renvoyer.</p>
+	<p>Comme par exemple "touria" qui devais appeler pour chaque IA la fonction "update" qui fait bouger l'IA en fonction des personnages à proximité.</p>
+	<p>Puis c'est à ce moment-là que nous avons rencontré notre plus gros problème.</p>
+	<p>Nous étions partis du principe qu'il suffirait de rattacher des sprits a notre code pour avoir un rendu mais UNITY ne marche pas aussi simplement.</p>
+	<p>De plus nous avions pas encore les sprits des unités pour au moins avoir un rendu.</p>
+	<p>Il a fallu que nous apprenions le fonctionnement de UNITY puis que nous implémentions notre code dans un projet UNITY tout en l'adaptant à UNITY.</p>
+	<p>C'était clairement le plus gros problème que nous avons rencontré.</p>
+	<p>De plus nous avons créé et rechercher des sprits pour nos unités et objets, les sprits que nous avons pas créé sont en lien dans Etat de l'Art.</p>
+	<p>A ce jour nous sommes encore en train d'implémenter notre code c# sur UNITY mais nous arrivons vers la fin.</p>
+
+    	</div>
+    </body>
+</html>
